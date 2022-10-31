@@ -2,6 +2,12 @@ html {
     background: #97cedb;
 }
 
+header {
+    background: #fff;
+    position: sticky;
+    top: 0px;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 40px;
@@ -16,6 +22,11 @@ h1 {
     margin: 0;
 }
 
+.jinx {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
 
 p {
     line-height: 1.4em;
@@ -25,6 +36,16 @@ p {
     border-top: 1px dotted #242424 ;
 }
 
+.overwatch {
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
 .blog-post {
     border-bottom: 1px dotted #242424;
+}
+
+form {
+    display: flex;
 }
